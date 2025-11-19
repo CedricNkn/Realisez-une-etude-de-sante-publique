@@ -1,513 +1,72 @@
-    font-size: 1rem;
-    --clf-analytics-first: #8a76e8;
-    --clf-analytics-second: #e96b7c;
-    --clf-analytics-third: #3b8880;
-    --clf-brand-accent-option-1: #9cc7f2;
-    --clf-brand-accent-option-2: #2e7e32;
-    --clf-brand-accent-option-3: #f2e93f;
-    --clf-brand-accent-option-4: #ff7b6d;
-    --clf-brand-business: #271a38;
-    --clf-brand-official: #8a76e8;
-    --clf-brand-on-contrasted: #fffaee;
-    --clf-brand-primary: #7451eb;
-    --clf-brand-secondary: #8a76e8;
-    --clf-brand-gradient-blue-green: linear-gradient(90.0deg, rgba(156, 199, 242, 1.0) 0%, rgba(90, 148, 96, 1.0) 100%);
-    --clf-brand-gradient-green-yellow: linear-gradient(90.0deg, rgba(90, 148, 96, 1.0) 0%, rgba(242, 233, 63, 1.0) 100%);
-    --clf-brand-gradient-pink-red: linear-gradient(90.0deg, rgba(237, 179, 178, 1.0) 0%, rgba(255, 123, 109, 1.0) 100%);
-    --clf-brand-gradient-pink-violet: linear-gradient(90.0deg, rgba(237, 179, 178, 1.0) 0%, rgba(157, 169, 243, 1.0) 100%);
-    --clf-brand-gradient-violet-blue: linear-gradient(90.0deg, rgba(157, 169, 243, 1.0) 0%, rgba(156, 199, 242, 1.0) 100%);
-    --clf-brand-gradient-violet-red: linear-gradient(90.0deg, rgba(157, 169, 243, 1.0) 0%, rgba(255, 123, 109, 1.0) 100%);
-    --clf-brand-gradient-yellow-orange: linear-gradient(90.0deg, rgba(242, 233, 63, 1.0) 0%, rgba(249, 171, 45, 1.0) 100%);
-    --clf-chip-disclose-background-enabled: #f6f4fd;
-    --clf-chip-disclose-background-error: #fcebeb;
-    --clf-chip-disclose-border-enabled: #dad9dc;
-    --clf-chip-disclose-border-error: #fcebeb;
-    --clf-chip-disclose-input: #271a38;
-    --clf-content-data-first: #7451eb;
-    --clf-content-data-fourth: #3b8880;
-    --clf-content-data-second: #ea7000;
-    --clf-content-data-third: #e96b7c;
-    --clf-content-highlight-first-level-background: #ecf7fd;
-    --clf-content-highlight-first-level-main: #129ce7;
-    --clf-content-highlight-fourth-level-background: #fffaee;
-    --clf-content-highlight-fourth-level-main: #f9ab2d;
-    --clf-content-highlight-information-background: #ecf7fd;
-    --clf-content-highlight-information-main: #129ce7;
-    --clf-content-highlight-promotion-background: #fdfbe0;
-    --clf-content-highlight-promotion-main: #f2e93f;
-    --clf-content-highlight-second-level-background: #fdfbe0;
-    --clf-content-highlight-second-level-main: #f2e93f;
-    --clf-content-highlight-third-level-background: #f6f4fd;
-    --clf-content-highlight-third-level-main: #9da9f3;
-    --clf-creative-assets-detail: #ece9fb;
-    --clf-creative-assets-thumbnail: #dad3f8;
-    --clf-form-field-background-active-drop: #7451eb29;
-    --clf-form-field-background-disabled: #f9f8f9;
-    --clf-form-field-background-enabled: #ffffff;
-    --clf-form-field-background-error-enabled: #fdf5f5;
-    --clf-form-field-background-error-hover: #fcebeb;
-    --clf-form-field-background-locked: #f9f8f9;
-    --clf-form-field-border-disabled: #c3bfc7;
-    --clf-form-field-border-enabled: #c3bfc7;
-    --clf-form-field-border-error-enabled: #d50000;
-    --clf-form-field-border-error-hover: #950000;
-    --clf-form-field-border-focus: #7451eb;
-    --clf-form-field-border-hover: #7451eb;
-    --clf-form-field-border-locked: #c3bfc7;
-    --clf-form-field-input: #271a38;
-    --clf-form-field-placeholder: #605b68;
-    --clf-form-label-disabled: #605b68;
-    --clf-form-label-empty: #271a38;
-    --clf-form-label-error: #d50000;
-    --clf-form-label-filled: #605b68;
-    --clf-form-label-focus: #7451eb;
-    --clf-form-label-helper: #605b68;
-    --clf-form-label-locked: #605b68;
-    --clf-form-selection-icon-disabled: #605b68;
-    --clf-form-selection-icon-enabled: #271a38;
-    --clf-form-selection-icon-error: #d50000;
-    --clf-form-selection-icon-minor: #605b68;
-    --clf-form-selection-icon-selected: #7451eb;
-    --clf-form-selection-text-disabled: #605b68;
-    --clf-form-selection-text-enabled: #271a38;
-    --clf-icon-disabled: #605b68;
-    --clf-icon-disclosure-indicator: #605b68;
-    --clf-icon-error: #d50000;
-    --clf-icon-minor: #605b68;
-    --clf-icon-on-contrasted: #fffaee;
-    --clf-icon-on-contrasted-highlighted: #fffaee;
-    --clf-icon-on-main: #271a38;
-    --clf-icon-on-main-highlighted: #7451eb;
-    --clf-interaction-border: #dad9dc;
-    --clf-interaction-danger: #d50000;
-    --clf-interaction-disabled: #7451eb61;
-    --clf-interaction-enabled: #7451eb;
-    --clf-interaction-filter: #ffffff;
-    --clf-interaction-floating-menu: #f2f1f3;
-    --clf-interaction-hover: #7451eb;
-    --clf-interaction-navigation-enabled: #271a38;
-    --clf-interaction-on-contrasted-disabled: #fffaee61;
-    --clf-interaction-on-contrasted-enabled: #fffaee;
-    --clf-interaction-on-contrasted-hover: #fffaee;
-    --clf-interaction-on-contrasted-navigation-enabled: #fffaee;
-    --clf-interaction-on-contrasted-on-enabled: #7451eb;
-    --clf-interaction-on-contrasted-on-hover: #7451eb;
-    --clf-interaction-on-contrasted-on-selected: #7451eb;
-    --clf-interaction-on-contrasted-selected: #fffaee;
-    --clf-interaction-on-enabled: #fffaee;
-    --clf-interaction-on-hover: #fffaee;
-    --clf-interaction-on-selected: #ffffff;
-    --clf-interaction-selected: #7451eb;
-    --clf-layout-background-alternative: #fffaee;
-    --clf-layout-background-dashboard: #f9f8f9;
-    --clf-layout-background-funnel: #f9f8f9;
-    --clf-layout-background-main: #ffffff;
-    --clf-layout-background-navigation: #ffffff;
-    --clf-layout-background-navigation-alternative: #f9f8f9;
-    --clf-layout-background-overlay: #271a3880;
-    --clf-layout-background-video: #271a38;
-    --clf-layout-line-border: #dad9dc;
-    --clf-layout-line-divider: #dad9dc;
-    --clf-layout-line-outline: #dad9dc;
-    --clf-layout-line-title: #dad9dc;
-    --clf-layout-surface-alternative-background: #fffaee;
-    --clf-layout-surface-background: #ffffff;
-    --clf-layout-surface-border: #f2f1f3;
-    --clf-layout-surface-tooltip: #271a38;
-    --clf-menu-background-selected-enabled: #f6f4fd;
-    --clf-menu-background-selected-hover: #ece9fb;
-    --clf-menu-background-unselected-enabled: #ffffff;
-    --clf-menu-background-unselected-hover: #f2f1f3;
-    --clf-notification-danger-background: #fcebeb;
-    --clf-notification-danger-main: #d50000;
-    --clf-notification-error-background: #fcebeb;
-    --clf-notification-error-main: #d50000;
-    --clf-notification-info-background: #ecf7fd;
-    --clf-notification-info-main: #0277bd;
-    --clf-notification-neutral-background: #f9f8f9;
-    --clf-notification-neutral-main: #605b68;
-    --clf-notification-valid-background: #eef5ef;
-    --clf-notification-valid-main: #2e7e32;
-    --clf-notification-warning-background: #fff1ed;
-    --clf-notification-warning-main: #ff5722;
-    --clf-option-app-algae: #4dac67;
-    --clf-option-app-alpine-race: #233d62;
-    --clf-option-app-azure: #129ce7;
-    --clf-option-app-banana-yellow: #f2e93f;
-    --clf-option-app-biloba-flower: #9da9f3;
-    --clf-option-app-bittersweet: #ff706b;
-    --clf-option-app-black: #271a38;
-    --clf-option-app-bleached-cedar: #251b36;
-    --clf-option-app-blue-chalk: #ece9fb;
-    --clf-option-app-blue-marguerite: #674eb1;
-    --clf-option-app-bright-cerulean: #129ce7;
-    --clf-option-app-brink-pink: #e96b7c;
-    --clf-option-app-cantaloupe: #f9ab2d;
-    --clf-option-app-carrot-orange: #f88e2c;
-    --clf-option-app-chinese-ink: #3c312c;
-    --clf-option-app-cloud-burst: #1f2c4c;
-    --clf-option-app-crater-brown: #43282d;
-    --clf-option-app-crimson-red: #950000;
-    --clf-option-app-crocus-purple: #8a76e8;
-    --clf-option-app-dark-jade: #3b8880;
-    --clf-option-app-dark-jungle-green: #1b2b20;
-    --clf-option-app-desert-storm: #f9f8f9;
-    --clf-option-app-dimgrey: #6c6478;
-    --clf-option-app-ebony-clay: #291f3d;
-    --clf-option-app-elderberry: #32234e;
-    --clf-option-app-floral-white: #fffaee;
-    --clf-option-app-forget-me-not: #fff1ed;
-    --clf-option-app-gainsboro: #dad9dc;
-    --clf-option-app-grapefruit: #ff5b55;
-    --clf-option-app-guardsman-red: #d50000;
-    --clf-option-app-gun-powder: #45395c;
-    --clf-option-app-haiti: #20152d;
-    --clf-option-app-her-highness: #674eb1;
-    --clf-option-app-indian-pale-ale: #cdc126;
-    --clf-option-app-lily-white: #ecf7fd;
-    --clf-option-app-linen: #fcebeb;
-    --clf-option-app-linen-pale: #fdf5f5;
-    --clf-option-app-lochmara: #0277bd;
-    --clf-option-app-lusty-orange: #e26f2c;
-    --clf-option-app-magnolia: #f6f4fd;
-    --clf-option-app-mango-tango: #ea7000;
-    --clf-option-app-mid-grey: #605b68;
-    --clf-option-app-mirage: #191024;
-    --clf-option-app-moon-glow: #fdfbe0;
-    --clf-option-app-orange: #ff5722;
-    --clf-option-app-oslo-grey: #8d8994;
-    --clf-option-app-pale-lilac: #dad3f8;
-    --clf-option-app-pale-slate: #c3bfc7;
-    --clf-option-app-pastel-blue: #9cc7f2;
-    --clf-option-app-royal-purple: #7451eb;
-    --clf-option-app-salmon: #ff7b6d;
-    --clf-option-app-saltpan: #eef5ef;
-    --clf-option-app-sea-green: #2e7e32;
-    --clf-option-app-sea-shell: #f2f1f3;
-    --clf-option-app-soft-blue: #7586f0;
-    --clf-option-app-tropical-blue: #aed4ea;
-    --clf-option-app-tuna: #362b4b;
-    --clf-option-app-white: #ffffff;
-    --clf-option-app-wine-dregs: #673241;
-    --clf-option-app-woody-brown: #442437;
-    --clf-option-topic-alice-blue: #f0f2f3;
-    --clf-option-topic-almond-frost: #977a70;
-    --clf-option-topic-amaranth: #d81b60;
-    --clf-option-topic-american-blue: #353670;
-    --clf-option-topic-amethyst: #ab47bc;
-    --clf-option-topic-amethyst-dark-purple: #bc6cc9;
-    --clf-option-topic-antartic-blue: #283e60;
-    --clf-option-topic-antiflash-white: #f2f4f7;
-    --clf-option-topic-apricot-peach: #fcc3bf;
-    --clf-option-topic-aqua-deep: #004d40;
-    --clf-option-topic-artic-shadow: #d7e9f4;
-    --clf-option-topic-artic-shadow-pale: #ebf4fa;
-    --clf-option-topic-aurora-magenta: #943660;
-    --clf-option-topic-autumn-harvest: #a56703;
-    --clf-option-topic-azalea: #f3b6cc;
-    --clf-option-topic-berwick-berry: #6e86a6;
-    --clf-option-topic-blackberry-black: #302548;
-    --clf-option-topic-blue-enchantment: #0c6879;
-    --clf-option-topic-blue-lagoon: #00838f;
-    --clf-option-topic-blue-lagoon-dark: #0096a3;
-    --clf-option-topic-blue-lilac: #edeff7;
-    --clf-option-topic-blue-ribbon: #304ffe;
-    --clf-option-topic-blue-snuff: #dbdeef;
-    --clf-option-topic-bridesmaid: #fef0ef;
-    --clf-option-topic-bright-grey: #e5e9ee;
-    --clf-option-topic-cabaret-pink: #d6497c;
-    --clf-option-topic-carousel-pink: #fcedf6;
-    --clf-option-topic-catskill-white: #ebf5f6;
-    --clf-option-topic-cherub: #f9dbe6;
-    --clf-option-topic-china-green-blue: #3e6467;
-    --clf-option-topic-chinese-bellflower: #4a56b3;
-    --clf-option-topic-cinderella: #fde1df;
-    --clf-option-topic-columbia-blue: #cbd3de;
-    --clf-option-topic-copper: #c87132;
-    --clf-option-topic-cornflower-blue: #7f74ff;
-    --clf-option-topic-corsican-purple: #7a83ae;
-    --clf-option-topic-crushed-almond: #d4c9c4;
-    --clf-option-topic-daisy-bush: #512da8;
-    --clf-option-topic-dark-blue: #0026ca;
-    --clf-option-topic-dark-spell: #2f3d4a;
-    --clf-option-topic-deep-brick: #f6dddd;
-    --clf-option-topic-deep-lavender: #5a5b80;
-    --clf-option-topic-dim-brown: #463542;
-    --clf-option-topic-dodger-blue: #617bff;
-    --clf-option-topic-duskwood: #163e53;
-    --clf-option-topic-dusty-gold: #f1e7d7;
-    --clf-option-topic-ebb: #eae4e2;
-    --clf-option-topic-ebb-pale: #f4f1f0;
-    --clf-option-topic-essex-blue: #aed4ea;
-    --clf-option-topic-fainting-light: #242946;
-    --clf-option-topic-fat-brown: #332538;
-    --clf-option-topic-fiord: #455a64;
-    --clf-option-topic-fog: #dee3ff;
-    --clf-option-topic-french-lilac: #e4c4ea;
-    --clf-option-topic-grand-plum: #6c5658;
-    --clf-option-topic-grey-magenta: #f2e2f4;
-    --clf-option-topic-grey-magenta-pale: #f8f0fa;
-    --clf-option-topic-grey-selago-pale: #f6eef7;
-    --clf-option-topic-her-highness-blue: #3e3370;
-    --clf-option-topic-imperial-purple: #52315f;
-    --clf-option-topic-indian-fig: #56322f;
-    --clf-option-topic-iron: #c4cacd;
-    --clf-option-topic-janna: #f4e3d6;
-    --clf-option-topic-kakitsubata-blue: #4062b3;
-    --clf-option-topic-kokimurasaki-purple: #3d1d3a;
-    --clf-option-topic-light-blue: #528eff;
-    --clf-option-topic-light-blush: #faeeee;
-    --clf-option-topic-logan: #b4add4;
-    --clf-option-topic-mauve-white: #e1e5e6;
-    --clf-option-topic-melrose: #bdc7ff;
-    --clf-option-topic-minsk: #413462;
-    --clf-option-topic-moody-blue: #8676d4;
-    --clf-option-topic-moon-raker: #d6dcf7;
-    --clf-option-topic-moon-raker-pale: #ebeefb;
-    --clf-option-topic-morning-amber: #e2ceae;
-    --clf-option-topic-murasaki-purple: #844d91;
-    --clf-option-topic-naggaroth-night: #3d3856;
-    --clf-option-topic-navy-blue: #140078;
-    --clf-option-topic-nebula: #d6e3e0;
-    --clf-option-topic-newport-indigo: #303c70;
-    --clf-option-topic-nightly: #525d7a;
-    --clf-option-topic-opal: #adc6c2;
-    --clf-option-topic-oriental-spice: #8b5030;
-    --clf-option-topic-patriot-blue: #393954;
-    --clf-option-topic-paua: #2a254f;
-    --clf-option-topic-paua-blue: #28284f;
-    --clf-option-topic-paua-purple: #2f244f;
-    --clf-option-topic-perano: #adbaee;
-    --clf-option-topic-persian-blue: #1b349e;
-    --clf-option-topic-pigeon-post: #b6bee0;
-    --clf-option-topic-pomegranate: #d63d46;
-    --clf-option-topic-porcelaine: #ebf1f0;
-    --clf-option-topic-power-outage: #392346;
-    --clf-option-topic-prelude: #c7bce3;
-    --clf-option-topic-purple-opulence: #615398;
-    --clf-option-topic-reddest-red: #9a4046;
-    --clf-option-topic-roman-orange: #de5854;
-    --clf-option-topic-rose-sharon: #b94e00;
-    --clf-option-topic-roxy-brown: #795548;
-    --clf-option-topic-sapphire-sparkle: #0f5b88;
-    --clf-option-topic-selago: #ecddee;
-    --clf-option-topic-shadow-blue: #7a83ea;
-    --clf-option-topic-shakespear-blue: #3a95cc;
-    --clf-option-topic-sinbad: #add7db;
-    --clf-option-topic-sitter-red: #3e2033;
-    --clf-option-topic-smalt-blue: #4f9187;
-    --clf-option-topic-snuff: #d9d6e9;
-    --clf-option-topic-snuff-pale: #ecebf4;
-    --clf-option-topic-soft-coral: #edbaba;
-    --clf-option-topic-spinel-stone-black: #28293b;
-    --clf-option-topic-sunset-mist: #f8f3eb;
-    --clf-option-topic-swansdown: #d6ebed;
-    --clf-option-topic-teeny-bikini: #316793;
-    --clf-option-topic-telopea: #2c2740;
-    --clf-option-topic-telopea-grey: #2e2742;
-    --clf-option-topic-thistle: #d9bbde;
-    --clf-option-topic-toledo: #3b242e;
-    --clf-option-topic-ucla-blue: #5c7497;
-    --clf-option-topic-vibrant-crimson: #c62828;
-    --clf-option-topic-vistoris-lake: #5a2646;
-    --clf-option-topic-vivid-violet: #892b99;
-    --clf-option-topic-white-lilac: #e3ddf1;
-    --clf-option-topic-white-lilac-pale: #f1eef8;
-    --clf-option-topic-white-linen: #f9f1eb;
-    --clf-option-topic-yankees-blue: #1b2a40;
-    --clf-option-topic-yue-moonlight: #5d52b3;
-    --clf-option-topic-zinfandel: #5d2a39;
-    --clf-option-topic-zinnwaldite: #e9c6ad;
-    --clf-option-topic-zircon: #eef1ff;
-    --clf-progress-completion-active: #7451eb;
-    --clf-progress-completion-disabled-active: #605b68;
-    --clf-progress-completion-disabled-enabled: #f2f1f3;
-    --clf-progress-completion-disabled-expected: #c3bfc7;
-    --clf-progress-completion-enabled: #ece9fb;
-    --clf-progress-completion-expected: #dad3f8;
-    --clf-progress-event-awaiting-feedback: #0277bd;
-    --clf-progress-event-canceled: #605b68;
-    --clf-progress-event-completed: #2e7e32;
-    --clf-progress-event-no-show: #d50000;
-    --clf-progress-event-ongoing: #8a76e8;
-    --clf-progress-event-scheduled: #605b68;
-    --clf-progress-learning-asset-awaiting: #0277bd;
-    --clf-progress-learning-asset-background-acquired: #eef5ef;
-    --clf-progress-learning-asset-background-main: #ffffff00;
-    --clf-progress-learning-asset-background-passed: #2e7e32;
-    --clf-progress-learning-asset-failed: #d50000;
-    --clf-progress-learning-asset-in-progress: #2e7e32;
-    --clf-progress-learning-asset-locked: #605b68;
-    --clf-progress-learning-asset-not-started: #605b68;
-    --clf-progress-learning-asset-on-passed: #fffaee;
-    --clf-progress-learning-asset-passed: #2e7e32;
-    --clf-progress-learning-asset-ready-to-present: #2e7e32;
-    --clf-progress-learning-asset-retry: #ff5722;
-    --clf-skeleton-badge: #ece9fb;
-    --clf-skeleton-image: #dad3f8;
-    --clf-skeleton-text: #ece9fb;
-    --clf-social-apple: #000000;
-    --clf-social-facebook: #1877f2;
-    --clf-social-google: #3c4043;
-    --clf-social-hover: #271a3829;
-    --clf-social-linkedin: #0077b5;
-    --clf-social-youtube: #ff0000;
-    --clf-sort-disabled: #605b68;
-    --clf-sort-enabled: #605b68;
-    --clf-sort-selected: #271a38;
-    --clf-tag-blue-main: #0277bd;
-    --clf-tag-blue-on-main: #fffaee;
-    --clf-tag-blue-on-secondary: #271a38;
-    --clf-tag-blue-secondary: #ecf7fd;
-    --clf-tag-crimson-main: #950000;
-    --clf-tag-crimson-on-main: #fffaee;
-    --clf-tag-crimson-on-secondary: #271a38;
-    --clf-tag-crimson-secondary: #fcebeb;
-    --clf-tag-green-main: #2e7e32;
-    --clf-tag-green-on-main: #fffaee;
-    --clf-tag-green-on-secondary: #271a38;
-    --clf-tag-green-secondary: #eef5ef;
-    --clf-tag-grey-main: #605b68;
-    --clf-tag-grey-on-main: #fffaee;
-    --clf-tag-grey-on-secondary: #271a38;
-    --clf-tag-grey-secondary: #f9f8f9;
-    --clf-tag-neutral-secondary: #ffffff00;
-    --clf-tag-neutral-main: #ffffff00;
-    --clf-tag-neutral-on-main: #271a38;
-    --clf-tag-neutral-on-secondary: #271a38;
-    --clf-tag-orange-main: #f9ab2d;
-    --clf-tag-orange-on-main: #271a38;
-    --clf-tag-orange-on-secondary: #271a38;
-    --clf-tag-orange-secondary: #fff1ed;
-    --clf-tag-purple-main: #7451eb;
-    --clf-tag-purple-on-main: #fffaee;
-    --clf-tag-purple-on-main-minor: #605b68;
-    --clf-tag-purple-on-secondary: #271a38;
-    --clf-tag-purple-secondary: #ece9fb;
-    --clf-tag-red-main: #d50000;
-    --clf-tag-red-on-main: #fffaee;
-    --clf-tag-red-on-secondary: #271a38;
-    --clf-tag-red-secondary: #fdf5f5;
-    --clf-tag-yellow-main: #f2e93f;
-    --clf-tag-yellow-on-main: #271a38;
-    --clf-tag-yellow-on-secondary: #271a38;
-    --clf-tag-yellow-secondary: #fdfbe0;
-    --clf-text-on-contrasted: #fffaee;
-    --clf-text-on-main: #271a38;
-    --clf-text-on-main-disabled: #605b68;
-    --clf-text-on-main-minor: #605b68;
-    --clf-text-on-main-secondary: #271a38;
-    --clf-text-on-tooltip: #fffaee;
-    --clf-topic-business-background: #ebeefb;
-    --clf-topic-business-detail: #d6dcf7;
-    --clf-topic-business-primary: #0026ca;
-    --clf-topic-business-thumbnail: #adbaee;
-    --clf-topic-career-background: #f8f0fa;
-    --clf-topic-career-detail: #f2e2f4;
-    --clf-topic-career-primary: #ab47bc;
-    --clf-topic-career-thumbnail: #e4c4ea;
-    --clf-topic-cyber-security-background: #f0f2f3;
-    --clf-topic-cyber-security-detail: #e1e5e6;
-    --clf-topic-cyber-security-primary: #455a64;
-    --clf-topic-cyber-security-thumbnail: #c4cacd;
-    --clf-topic-data-background: #ebf1f0;
-    --clf-topic-data-detail: #d6e3e0;
-    --clf-topic-data-primary: #004d40;
-    --clf-topic-data-thumbnail: #adc6c2;
-    --clf-topic-design-background: #fcedf6;
-    --clf-topic-design-detail: #f9dbe6;
-    --clf-topic-design-primary: #d81b60;
-    --clf-topic-design-thumbnail: #f3b6cc;
-    --clf-topic-development-background: #ebf5f6;
-    --clf-topic-development-detail: #d6ebed;
-    --clf-topic-development-primary: #00838f;
-    --clf-topic-development-thumbnail: #add7db;
-    --clf-topic-energy-background: #f8f3eb;
-    --clf-topic-energy-detail: #f1e7d7;
-    --clf-topic-energy-primary: #a56703;
-    --clf-topic-energy-thumbnail: #e2ceae;
-    --clf-topic-health-social-early-childhood-background: #f6eef7;
-    --clf-topic-health-social-early-childhood-detail: #ecddee;
-    --clf-topic-health-social-early-childhood-primary: #892b99;
-    --clf-topic-health-social-early-childhood-thumbnail: #d9bbde;
-    --clf-topic-hr-background: #ecebf4;
-    --clf-topic-hr-detail: #d9d6e9;
-    --clf-topic-hr-primary: #140078;
-    --clf-topic-hr-thumbnail: #b4add4;
-    --clf-topic-management-background: #edeff7;
-    --clf-topic-management-detail: #dbdeef;
-    --clf-topic-management-primary: #1b349e;
-    --clf-topic-management-thumbnail: #b6bee0;
-    --clf-topic-marketing-coms-background: #eef1ff;
-    --clf-topic-marketing-coms-detail: #dee3ff;
-    --clf-topic-marketing-coms-primary: #304ffe;
-    --clf-topic-marketing-coms-thumbnail: #bdc7ff;
-    --clf-topic-other-background: #f6f4fd;
-    --clf-topic-other-detail: #ece9fb;
-    --clf-topic-other-primary: #7451eb;
-    --clf-topic-other-thumbnail: #dad3f8;
-    --clf-topic-pedagogy-background: #fef0ef;
-    --clf-topic-pedagogy-detail: #fde1df;
-    --clf-topic-pedagogy-primary: #d63d46;
-    --clf-topic-pedagogy-thumbnail: #fcc3bf;
-    --clf-topic-pm-background: #f1eef8;
-    --clf-topic-pm-detail: #e3ddf1;
-    --clf-topic-pm-primary: #512da8;
-    --clf-topic-pm-thumbnail: #c7bce3;
-    --clf-topic-productivity-softwares-background: #f2f4f7;
-    --clf-topic-productivity-softwares-detail: #e5e9ee;
-    --clf-topic-productivity-softwares-primary: #5c7497;
-    --clf-topic-productivity-softwares-thumbnail: #cbd3de;
-    --clf-topic-si-background: #ebf4fa;
-    --clf-topic-si-detail: #d7e9f4;
-    --clf-topic-si-primary: #0f5b88;
-    --clf-topic-si-thumbnail: #aed4ea;
-    --clf-topic-soft-skills-background: #f4f1f0;
-    --clf-topic-soft-skills-detail: #eae4e2;
-    --clf-topic-soft-skills-primary: #795548;
-    --clf-topic-soft-skills-thumbnail: #d4c9c4;
-    --clf-topic-supply-chain-background: #f9f1eb;
-    --clf-topic-supply-chain-detail: #f4e3d6;
-    --clf-topic-supply-chain-primary: #b94e00;
-    --clf-topic-supply-chain-thumbnail: #e9c6ad;
-    --clf-videocall-active-border: #dad3f8;
-    --clf-videocall-active-enabled: #f6f4fd;
-    --clf-videocall-active-hover: #dad3f8;
-    --clf-videocall-active-icon: #7451eb;
-    --clf-videocall-danger-enabled: #e96b7c;
-    --clf-videocall-danger-hover: #e96b7ca3;
-    --clf-videocall-default-border: #dad9dc;
-    --clf-videocall-default-enabled: #f9f8f9;
-    --clf-videocall-default-hover: #dad9dc;
-    --clf-videocall-default-icon: #605b68;
-    --clf-videocall-warning-border: #ffc9b8;
-    --clf-videocall-warning-enabled: #fff1ed;
-    --clf-videocall-warning-hover: #ffc9b8;
-    --clf-videocall-warning-icon: #ff5722;
-    --f-spinner-width: 36px;
-    --f-spinner-height: 36px;
-    --f-spinner-color-1: rgba(0, 0, 0, 0.1);
-    --f-spinner-color-2: rgba(17, 24, 28, 0.8);
-    --f-spinner-stroke: 2.75;
-    --f-button-width: 40px;
-    --f-button-height: 40px;
-    --f-button-border: 0;
-    --f-button-border-radius: 0;
-    --f-button-color: #374151;
-    --f-button-bg: #f8f8f8;
-    --f-button-hover-bg: #e0e0e0;
-    --f-button-active-bg: #d0d0d0;
-    --f-button-shadow: none;
-    --f-button-transition: all 0.15s ease;
-    --f-button-transform: none;
-    --f-button-svg-width: 20px;
-    --f-button-svg-height: 20px;
-    --f-button-svg-stroke-width: 1.5;
-    --f-button-svg-fill: none;
-    --f-button-svg-filter: none;
-    --f-button-svg-disabled-opacity: 0.65;
-    font-family: "Inter",sans-serif;
-    color: #271a38;
-    outline-color: #7451eb;
-    display: none;
-    visibility: hidden;
+<h1>Réalisez une étude de santé publique avec R ou Python</h1>
+<h3>Scénario</h3>
+<p>Félicitations&nbsp;! Vous avez récemment rejoint une équipe de chercheurs de la <a href="http://www.fao.org/home/fr/">Food and Agriculture Organization of the United Nations (FAO)</a>, en tant que data analyst.</p>
+<figure><a href="https://user.oc-static.com/upload/2020/11/23/16061289311922_Capture%20d%E2%80%99e%CC%81cran%202020-11-23%20a%CC%80%2011.06.07.png" class="oc-imageLink oc-imageLink--disabled"><img src="https://user.oc-static.com/upload/2020/11/23/16061289311922_Capture%20d%E2%80%99e%CC%81cran%202020-11-23%20a%CC%80%2011.06.07.png" alt="Food and Agriculture Organization of the United Nations"></a>
+<figcaption>Food and Agriculture Organization of the United Nations</figcaption>
+</figure>
+<p>Son rôle&nbsp;? C’est l’un des organes qui composent l’ONU et dont l’objectif est «&nbsp;d’aider à construire un monde libéré de la faim&nbsp;».&nbsp;</p>
+<p>Le responsable de l’équipe, Marc, un chercheur en économie de la santé, est particulièrement enthousiaste à l’idée de votre arrivée au sein de son équipe. En effet, ce recrutement tombe à pic car Julien, l'ancien data analyst, a récemment été muté dans une autre équipe, et la vôtre vient de se voir confier la mission de réaliser une étude de grande ampleur sur le thème de la sous-nutrition dans le monde.</p>
+<p>Dès votre arrivée, vous trouvez un mail de Marc dans votre boîte mail&nbsp;:</p>
+<p>&nbsp;</p>
+<blockquote>
+<p><strong>Objet&nbsp;</strong>: Bienvenue<br><strong>De</strong>&nbsp;: Marc<br><strong>À</strong>&nbsp;: Vous</p>
+<p>Hello et bienvenue au sein de la FAO. J’espère que tu te plairas parmi nous. En tous cas, sache que je suis très content de t’accueillir au sein de mon équipe.</p>
+<p>Tu es probablement au courant, mais nous avons une grosse tâche qui nous attend, et nous comptons particulièrement sur toi pour nous donner un panorama de l’état de la malnutrition dans le monde, à partir des données que tu trouveras dans le dossier en pièce jointe. Je t’invite d’ailleurs fortement à lire le <a href="https://s3.eu-west-1.amazonaws.com/course.oc-static.com/projects/DAN_V2_P4/Lexique+des+donne%CC%81es.pdf"><strong>Lexique des données</strong></a> qui s’y trouve, écrit par Julien. Dans ce document, tu trouveras le descriptif des différents fichiers ainsi que des notes qui te sont adressées. Nous souhaitons que tu poursuives ses recherches en répondant aux questions qu'il t'a laissé.</p>
+<p>Les données sur lesquelles j’aimerais particulièrement avoir des informations sont, pour l’année 2017 :</p>
+<ul>
+<li>la proportion de personnes en état de sous-nutrition ;</li>
+<li>le nombre théorique de personnes qui pourraient être nourries. Tu devrais pouvoir calculer ça à partir de la disponibilité alimentaire mondiale ;</li>
+<li>idem pour la disponibilité alimentaire des produits végétaux ;</li>
+<li>l’utilisation de la disponibilité intérieure, en particulier la part qui est attribuée à l’alimentation animale, celle qui est perdue et celle qui est concrètement utilisée pour l'alimentation humaine. Je crois que Julien avait trouvé un moyen de facilement calculer ces proportions.</li>
+</ul>
+<p>&nbsp;Ce sont les informations principales dont on aimerait que tu puisses nous rendre compte, mais toute idée additionnelle est bonne à prendre&nbsp;!&nbsp;</p>
+<p>Il y a aussi Mélanie, une autre chercheuse de l’équipe qui avait quelques demandes. Elle devrait prendre contact avec toi rapidement à ce sujet.</p>
+<p>N’hésite pas à venir me voir si tu as la moindre question&nbsp;!</p>
+<p>Marc.</p>
+<p>PJ&nbsp;:&nbsp;<a href="https://s3-eu-west-1.amazonaws.com/static.oc-static.com/prod/courses/files/parcours-data-analyst/DAN-P4-FAO.zip"><strong>données FAO.zip</strong></a>&nbsp;</p>
+</blockquote>
+<p>&nbsp;</p>
+<p>À peine le temps de préparer votre café matinal, que vous recevez un message de Mélanie par messagerie instantanée&nbsp;:</p>
+<p>&nbsp;</p>
+<div class="oc-tableContainer"><table>
+<tbody>
+<tr>
+<td>
+<p><strong>Mélanie : </strong>Hello, j’espère que tout va bien et que t’intègres bien. En tout cas, je te souhaite à mon tour la bienvenue dans notre équipe.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><strong>Vous :&nbsp;</strong>Merci&nbsp;! Je prends mes marques petit à petit. Marc m’a dit que tu avais une demande particulière&nbsp;?</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><strong>Mélanie :&nbsp;</strong>Tout à fait&nbsp;! Je souhaiterais avoir une étude un peu plus fine pour chacun des pays. Par exemple, j’aimerais que tu puisses nous donner les pays pour lesquels la proportion de personnes sous-alimentées est la plus forte en 2017, ceux qui ont le plus bénéficié d’aide depuis 2013, ceux ayant le plus/le moins de disponibilité/habitant, etc., et toutes les infos que tu trouverais utiles pour mettre en relief les pays qui semblent être le plus en difficulté, au niveau alimentaire.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><strong>Vous :&nbsp;</strong>OK pas de soucis, je vais regarder ça.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><strong>Mélanie :&nbsp;</strong>Super, bon courage !</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><strong>Vous</strong> :&nbsp;Merci, à bientôt !</p>
+</td>
+</tr>
+</tbody>
+</table></div>
+<p>Vous gardez en tête toutes ces requêtes, et attaquez immédiatement votre «&nbsp;exploration&nbsp;».</p>
+<aside data-claire-semantic="information">
+<p>Dans ce projet, vous êtes libre d’utiliser le langage de programmation de votre choix entre <strong>R et Python</strong> pour mener à bien votre analyse. Vous pouvez utiliser choix Jupyter (pour R et pour Python) ou R Markdown (pour R).</p>
+</aside>
+<h3>Livrable</h3>
+<ul>
+<li>Le notebook R Markdown ou Jupyter vous ayant permis de calculer/trouver l’ensemble des résultats demandés.</li>
+</ul>
