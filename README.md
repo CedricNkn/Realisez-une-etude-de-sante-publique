@@ -1,16 +1,3 @@
-<!DOCTYPE html>
-<html class="no-js " lang="fr" prefix="og: http://ogp.me/ns#">
-    <head>
-        <title>
-                            OpenClassrooms
-                    </title>
-                <meta name="viewport" content="width=device-width, initial-scale=1"/>
-        <meta charset="utf-8" />
-        <meta name="application-name" content="OpenClassrooms"/>
-        <meta name="msapplication-TileColor" content="#7451eb"/>
-        <meta name="msapplication-TileImage" content="/fav-icon.png?v=3"/>
-        <meta name="theme-color" content="#7451eb">
-        <meta property="og:locale" content="fr"/>
 
                 
         <link rel="prefetch" href="https://cdn.oc-static.com/production/js/index.js?v=3" as="script" crossorigin="anonymous" />
