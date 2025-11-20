@@ -1,8 +1,5 @@
 <h1>Réalisez une étude de santé publique avec R ou Python</h1>
-<p>Félicitations&nbsp;! Vous avez récemment rejoint une équipe de chercheurs de la <a class="custom-link" href="http://www.fao.org/home/fr/">Food and Agriculture Organization of the United Nations (FAO)</a>, en tant que data analyst.</p>
-<p>&nbsp;</p>
 <figure><a href="https://user.oc-static.com/upload/2023/03/29/16800690678052_image1.png" class="oc-imageLink"><img src="https://user.oc-static.com/upload/2023/03/29/16800690678052_image1.png" alt="Le logo de la FAO représente un épi de maïs"></a>
-<figcaption>Logo de la FAO</figcaption>
 </figure>
 <p>&nbsp;</p>
 <p>Son rôle&nbsp;? C’est l’un des organes qui composent l’ONU et dont l’objectif est «&nbsp;d’aider à construire un monde libéré de la faim&nbsp;».&nbsp;</p>
